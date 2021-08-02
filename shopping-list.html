@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping list</title>
+    <style>
+      body {
+        font-family: "Indie Flower", cursive;
+        background-color: hsl(201, 100%, 96%);
+        text-align: center;
+      }
+      main {
+        max-width: 250px;
+        margin: 0 auto;
+        background-color: hsl(180, 50%, 90%);
+        border-radius: 20px;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-inline-start: 60px;
+      }
+      li {
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>SHOPPING LIST</h1>
+    </header>
+    <main>
+      <ul>
+        <li>
+          <input type="checkbox" name="bakery" id="bakery" />
+          <label for="bakery">Bakery</label>
+        </li>
+        <li>
+          <input type="checkbox" name="dairy" id="dairy" />
+          <label for="dairy">Dairy</label>
+        </li>
+        <li>
+          <input type="checkbox" name="vegetables" id="vegetables" />
+          <label for="vegetables">Vegetables</label>
+        </li>
+        <li>
+          <input type="checkbox" name="fruits" id="fruits" />
+          <label for="fruits">Fruits</label>
+        </li>
+        <li>
+          <input type="checkbox" name="drinks" id="drinks" />
+          <label for="drinks">Drinks</label> 
+        </li>
+      
+    </main>
+    <footer>
+      <h5>COOL STUFF INCORPORATED &#169;</h5>
+    </footer>
+  </body>
+</html>
