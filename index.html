@@ -16,76 +16,65 @@
       font-family: "Baloo Chettan 2", cursive;
       padding: 20px;
       text-align: center;
-      max-width: 25%;
+      max-width: 50%;
       margin: 0 auto;
-      background-color: hsl(0, 0%, 90%);
+      background-color: hsl(53, 25%, 79%);
     }
     img {
-      height: 150px;
-      border-radius: 25%;
-      margin-bottom: 20px;
+      height: 100px;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    h2 {
+      margin-top: 0;
     }
     a {
+      text-decoration: none;
       color: black;
-      margin: 0 5px;
+      font-size: 1.5rem;
     }
-    span {
-      font-weight: bold;
+    a:hover {
+      color: hsl(0, 37%, 69%);
+    }
+    .git-link {
+      font-size: 1rem;
+      background-color: hsl(158, 37%, 69%);
+      border-radius: 10px;
+      padding: 5px;
+      font-weight: 600;
+    }
+    .git-link:hover {
+      color: hsl(0, 37%, 69%);
+    }
+    footer {
+      margin: 20px;
     }
   </style>
   <body>
     <header>
-      <h1>Denis Butsky</h1>
-      <h3>Web Developer</h3>
+      <figure>
+        <a href="https://beetroot.academy/"
+          ><img
+            src="https://lms.beetroot.academy/static/media/1.db74eb52.svg"
+            alt="Beetroot Academy Logo"
+        /></a>
+      </figure>
+      <h1>Front-End Course Homework</h1>
+      <h2>by Denis Butsky</h2>
     </header>
     <main>
-      <section>
-        <figure>
-          <img
-            src="https://avatars.githubusercontent.com/u/30866948?s=400&u=b8767b2f7ab2ae5f9e18b83c828be79ffc858928&v=4"
-            alt="Denis Butsky Avatar"
-          />
-          <figcaption>
-            <a href="https://www.linkedin.com/in/denisbutsky/">LinkedIn</a>
-            <a href="https://www.facebook.com/denisbutsky">Facebook</a>
-          </figcaption>
-        </figure>
-      </section>
-      <section>
-        <span>Beetroot Academy Front-End Course Tasks:</span>
-        <br />
-        <a href="shopping-list.html">Shopping List (lesson 3)</a>
-        <a href="table-of-contents.html">Anchors (lesson 3)</a>
-      </section>
-      <section>
-        <p>
-          <span>About:</span> I'm a web developer with vast technical skills and
-          knowledge. The key value in my life is to do it well or not at all,
-          also they say I am a responsible one, a solution seeker, and a great
-          helper. Having come to a new place I tend to establish productive and
-          healthy environment showing interest and respect to arising
-          questions...
-        </p>
-      </section>
-      <section>
-        <p><span>Stack:</span> HTML, CSS, SASS, LESS, JS, Vue.JS...</p>
-      </section>
-      <section>
-        <p>
-          <span>Languages:</span> Russian, Ukrainian, Polish, English, French,
-          Italian...
-        </p>
-      </section>
-      <section>
-        <p>
-          <span>Hobbies:</span> photography, cinematography, linguistics,
-          traveling, 3D printing, handcrafting, vehicles, motorbikes,
-          technologies, design...
-        </p>
-      </section>
+      <a href="cv.html">CV (lesson 1/2)</a>
+      <br />
+      <a href="shopping-list.html">Shopping List (lesson 3)</a>
+      <br />
+      <a href="table-of-contents.html">Anchors (lesson 3)</a>
+      <br />
+      <footer>
+        <a class="git-link" href="https://github.com/nthbutsky/ba-fe-course"
+          >github repo</a
+        >
+      </footer>
     </main>
-    <footer>
-      <h5>Kyiv, +380955651951, nthbutsky@gmail.com</h5>
-    </footer>
   </body>
 </html>
