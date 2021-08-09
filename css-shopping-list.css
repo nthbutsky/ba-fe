@@ -1,0 +1,135 @@
+body {
+  min-height: 100vh;
+  border: 20px solid hsl(220, 10%, 94%);
+  background-color: hsl(216, 8%, 25%);
+  font-size: 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+.header__container {
+  background-color: hsl(215, 8%, 31%);
+  padding-bottom: 20px;
+}
+
+.header__container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.header-text,
+.footer-text {
+  color: hsl(359, 73%, 71%);
+  text-align: center;
+}
+
+.items__container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.item {
+  padding: 15px;
+  position: relative;
+  cursor: pointer;
+  padding-left: 55px;
+}
+
+.item label {
+  color: hsl(0, 0%, 87%);
+}
+
+.item input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: hsl(0, 0%, 87%);
+  margin: 15px;
+}
+
+.checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid hsl(0, 0%, 0%);
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.item input:checked ~ .checkbox:after {
+  display: block;
+  transition: all 0.1s ease-in;
+}
+
+.item input[type="checkbox"]:checked ~ label {
+  text-decoration: line-through;
+  color: hsl(256, 7%, 70%);
+  transition: all 0.1s ease-in;
+}
+
+.main__container ul li {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+
+.main__container ul li:nth-child(odd) {
+  background: hsl(251, 12%, 57%);
+}
+
+.main__container ul li:nth-child(even) {
+  background: hsl(250, 12%, 52%);
+}
+
+.main__container ul li:hover {
+  background-color: hsl(250, 12%, 42%);
+  border-top: 3px solid hsl(0, 0%, 87%);
+  border-bottom: 3px solid hsl(0, 0%, 87%);
+  transition: all 0.1s ease-in;
+}
+
+.text {
+  margin-left: 5px;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  color: hsl(256, 7%, 70%);
+}
+
+.text:before {
+  content: "( ";
+}
+
+.text:after {
+  content: " )";
+}
+
+.footer-text {
+  background-color: #4a4f56;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+}
+
+.footer-text:after {
+  content: " :)";
+}

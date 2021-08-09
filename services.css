@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-tablet-text__container,
+.icon-settings-text__container,
+.icon-dashboard-text__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.icon-tablet__container,
+.icon-settings__container,
+.icon-dashboard__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 75px;
+  background-color: #2a69a6;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.icon-tablet__container {
+  background-image: url(/img/srvcs/Tablet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+}
+
+.icon-settings__container {
+  background-image: url(/img/srvcs/Settings.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.icon-dashboard__container {
+  background-image: url(/img/srvcs/Dashboard.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.icon-tablet__container:hover,
+.icon-settings__container:hover,
+.icon-dashboard__container:hover {
+  border: 2px solid #2a69a6;
+  background-color: white;
+  cursor: pointer;
+}
+
+.icon-tablet__container:hover {
+  background-image: url(/img/srvcs/Tablet_hover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+}
+
+.icon-settings__container:hover {
+  background-image: url(/img/srvcs/Settings_hover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.icon-dashboard__container:hover {
+  background-image: url(/img/srvcs/Dashboard_hover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.icon-text {
+  font-family: Proxima Nova;
+  font-size: 1rem;
+  margin: 15px;
+}
+
+.icon-description-text {
+  font-family: Proxima Nova;
+  font-weight: lighter;
+  text-align: center;
+  color: #9d9d9d;
+  line-height: 1.5;
+}
