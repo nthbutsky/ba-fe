@@ -1,0 +1,108 @@
+body {
+  background-color: hsl(200, 68%, 47%);
+  border: 20px solid hsl(200, 67%, 40%);
+  min-height: 100vh;
+  font-family: Lucida Sans Unicode, sans-serif;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.header-text {
+  margin: 30px 200px;
+}
+
+.cells__container {
+  border: 2px solid white;
+  font-size: 0;
+  margin: 25px 200px;
+  background-color: white;
+}
+
+.cells__container span:after {
+  content: "\2103";
+  margin-right: 5px;
+}
+
+.cells__container li {
+  border: 2px solid white;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 15px;
+  height: 100px;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.7;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.cells__container li:nth-child(1) {
+  width: 50%;
+  background-color: hsl(201, 68%, 48%);
+}
+
+.cells__container li:nth-child(2) {
+  width: 25%;
+  background-color: hsl(184, 69%, 46%);
+}
+
+.cells__container li:nth-child(3) {
+  width: 25%;
+  background-color: hsl(304, 16%, 52%);
+}
+
+.cells__container li:nth-child(4) {
+  width: 25%;
+  background-color: hsl(8, 54%, 52%);
+}
+
+.cells__container li:nth-child(5) {
+  width: 25%;
+  background-color: hsl(17, 77%, 59%);
+}
+
+.cells__container li:nth-child(6) {
+  width: 25%;
+  background-color: hsl(41, 100%, 68%);
+}
+
+.cells__container li:nth-child(7) {
+  width: 25%;
+  background-color: hsl(124, 29%, 67%);
+}
+
+.cells__container li:nth-child(8) {
+  width: 25%;
+  background-color: hsl(180, 22%, 47%);
+}
+
+.cells__container li:nth-child(9) {
+  width: 50%;
+  background-color: hsl(338, 49%, 63%);
+}
+
+.cells__container li:nth-child(10) {
+  width: 25%;
+  background-color: hsl(154, 55%, 36%);
+}
+
+.cells__container li:nth-child(11) {
+  width: 100%;
+  background-color: hsl(233, 20%, 43%);
+}
+
+.cells__container:hover li {
+  opacity: 40%;
+  transition: all 0.1s ease-in;
+}
+
+.cells__container:hover li:hover {
+  opacity: 1;
+  transition: all 0.1s ease-in;
+}
+
+.bottom-text {
+  margin: 30px 200px;
+  font-size: 1rem;
+  color: hsla(0, 0%, 100%, 0.7);
+}
