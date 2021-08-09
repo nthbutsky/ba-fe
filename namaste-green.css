@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+}
+
+.header-text__container {
+  margin: 80px;
+}
+
+.header-text-top {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #898f99;
+  font-size: 12px;
+  margin: 10px;
+}
+
+.header-text-title {
+  font-family: "Montserrat", sans-serif;
+  color: #0ec8cb;
+  font-size: 48px;
+}
+
+.header-text-bottom {
+  font-family: "PT Sans", sans-serif;
+  color: #999999;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.icons__container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  height: 400px;
+  width: 200px;
+  background-color: #f7f7f7;
+  color: #1b1b1b;
+  padding: 150px 20px 0 20px;
+  border: 1px solid #ececec;
+}
+
+.icon-text__despription {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.anchor {
+  background-image: url(img/nmst/Anchor.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+}
+
+.anchor:hover {
+  background-image: url(img/nmst/Anchor_hover.png);
+  color: white;
+  cursor: pointer;
+  background-color: #0ec8cb;
+}
+
+.diamond {
+  background-image: url(img/nmst/Diamond.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+  padding: 140px 15px 0 15px;
+}
+
+.diamond:hover {
+  background-image: url(img/nmst/Diamond_hover.png);
+  color: white;
+  cursor: pointer;
+  background-color: #0ec8cb;
+}
+
+.eyeglasses {
+  background-image: url(img/nmst/Eyeglasses.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+}
+
+.eyeglasses:hover {
+  background-image: url(img/nmst/Eyeglasses_hover.png);
+  color: white;
+  cursor: pointer;
+  background-color: #0ec8cb;
+}
+
+.monitor {
+  background-image: url(img/nmst/Monitor.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+}
+
+.monitor:hover {
+  background-image: url(img/nmst/Monitor_hover.png);
+  color: white;
+  cursor: pointer;
+  background-color: #0ec8cb;
+}
