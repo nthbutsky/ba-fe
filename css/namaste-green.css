@@ -50,21 +50,21 @@ body {
 }
 
 .anchor {
-  background-image: url(/img/nmst/Anchor.png);
+  background-image: url(img/nmst/Anchor.png);
   background-size: 60px;
   background-repeat: no-repeat;
   background-position: 50% 15%;
 }
 
 .anchor:hover {
-  background-image: url(/img/nmst/Anchor_hover.png);
+  background-image: url(img/nmst/Anchor_hover.png);
   color: white;
   cursor: pointer;
   background-color: #0ec8cb;
 }
 
 .diamond {
-  background-image: url(/img/nmst/Diamond.png);
+  background-image: url(img/nmst/Diamond.png);
   background-size: 60px;
   background-repeat: no-repeat;
   background-position: 50% 15%;
@@ -72,35 +72,35 @@ body {
 }
 
 .diamond:hover {
-  background-image: url(/img/nmst/Diamond_hover.png);
+  background-image: url(img/nmst/Diamond_hover.png);
   color: white;
   cursor: pointer;
   background-color: #0ec8cb;
 }
 
 .eyeglasses {
-  background-image: url(/img/nmst/Eyeglasses.png);
+  background-image: url(img/nmst/Eyeglasses.png);
   background-size: 60px;
   background-repeat: no-repeat;
   background-position: 50% 15%;
 }
 
 .eyeglasses:hover {
-  background-image: url(/img/nmst/Eyeglasses_hover.png);
+  background-image: url(img/nmst/Eyeglasses_hover.png);
   color: white;
   cursor: pointer;
   background-color: #0ec8cb;
 }
 
 .monitor {
-  background-image: url(/img/nmst/Monitor.png);
+  background-image: url(img/nmst/Monitor.png);
   background-size: 60px;
   background-repeat: no-repeat;
   background-position: 50% 15%;
 }
 
 .monitor:hover {
-  background-image: url(/img/nmst/Monitor_hover.png);
+  background-image: url(img/nmst/Monitor_hover.png);
   color: white;
   cursor: pointer;
   background-color: #0ec8cb;
