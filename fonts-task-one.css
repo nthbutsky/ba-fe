@@ -1,0 +1,81 @@
+body {
+  background-color: #fff;
+  font-family: Lato, Playfair Display;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__container {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 75px;
+  margin: 75px;
+  max-width: 900px;
+  filter: drop-shadow(4px 4px 68px rgba(0, 0, 0, 0.05))
+    drop-shadow(-4px 4px 68px rgba(0, 0, 0, 0.05))
+    drop-shadow(4px -4px 68px rgba(0, 0, 0, 0.05))
+    drop-shadow(-4px -4px 68px rgba(0, 0, 0, 0.05));
+}
+
+.header-title {
+  font-family: Playfair Display;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.first-letter {
+  font-family: Playfair Display;
+  font-size: 5rem;
+  margin-right: 20px;
+  line-height: 1;
+  float: left;
+  vertical-align: top;
+}
+
+.article-text {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.quote {
+  color: hsl(0, 0%, 50%);
+  font-family: Lato;
+  font-style: italic;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+.quote:before {
+  content: "\201C";
+  vertical-align: auto;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #eaa258;
+  border: 2px solid #eaa258;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background-color: #eaa258;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:active {
+  background-color: #b8814a;
+  border: 2px solid #b8814a;
+}
