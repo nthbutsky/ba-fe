@@ -26,21 +26,21 @@
 }
 
 .icon-tablet__container {
-  background-image: url(img/srvcs/Tablet.png);
+  background-image: url(/img/srvcs/Tablet.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 35%;
 }
 
 .icon-settings__container {
-  background-image: url(img/srvcs/Settings.png);
+  background-image: url(/img/srvcs/Settings.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40%;
 }
 
 .icon-dashboard__container {
-  background-image: url(img/srvcs/Dashboard.png);
+  background-image: url(/img/srvcs/Dashboard.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40%;
