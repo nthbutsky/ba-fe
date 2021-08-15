@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Miso;
+  src: url(../font/miso-regular.ttf), url(../font/miso-bold.ttf),
+    url(../font/miso-light.ttf);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Miso;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(45, 97%, 74%);
+  width: 900px;
+  height: 465px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 270px;
+  height: 340px;
+  background-color: white;
+  line-height: 1;
+  padding: 0 70px;
+  text-align: center;
+}
+
+.text-bold {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: hsl(155, 97%, 30%);
+  margin: 20px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.text-regular {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 20px;
+}
+
+.text-light {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: hsl(0, 0%, 67%);
+}
+
+.gold {
+  height: 390px;
+  padding-top: 10px;
+}
+
+.gold .text-bold {
+  margin: 30px;
+}
