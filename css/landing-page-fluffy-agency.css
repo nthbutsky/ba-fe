@@ -43,6 +43,8 @@
   margin: 20px 0 0 0;
   border: 1px solid transparent;
   width: 300px;
+  -webkit-filter: drop-shadow(1px 10px 10px hsla(0, 0%, 0%, 0.4));
+  filter: drop-shadow(1px 10px 10px hsla(0, 0%, 0%, 0.4));
 }
 
 .btn:hover {
@@ -51,6 +53,8 @@
   -o-transition: 0.2s linear;
   transition: 0.2s linear;
 }
+
+/* MAIN STYLING*/
 
 body {
   font-family: Avenir Next;
@@ -69,12 +73,6 @@ header {
   top: 0;
 }
 
-@media (max-width: 375px) {
-  header {
-    padding: 5px 50px;
-  }
-}
-
 .header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,21 +84,27 @@ header {
   font-weight: bold;
   font-size: 0.875rem;
   padding: 10px;
-}
-
-@media (max-width: 375px) {
-  .header__nav ul {
-    padding: 5px;
-  }
+  border: 1px solid transparent;
 }
 
 .header__nav ul:hover {
-  background-color: var(--clr-orange);
+  background-color: var(--clr-blueL);
   cursor: pointer;
   -webkit-transition: 0.2s linear;
   -o-transition: 0.2s linear;
   transition: 0.2s linear;
   color: var(--clr-greyL);
+  border: 1px solid transparent;
+}
+
+.header__nav ul:active {
+  background-color: var(--clr-greyL);
+  cursor: pointer;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  color: var(--clr-dark);
+  border: 1px solid var(--clr-dark);
 }
 
 .section-1 {
@@ -123,21 +127,6 @@ header {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-}
-
-@media (max-width: 375px) {
-  .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
 }
 
 .section-1__left-side {
@@ -272,12 +261,6 @@ header {
   width: 100%;
 }
 
-@media (max-width: 375px) {
-  .section-3__stat-container {
-    text-align: center;
-  }
-}
-
 .stat {
   max-width: 400px;
   margin: 20px;
@@ -371,12 +354,6 @@ header {
   max-width: 80%;
 }
 
-@media (max-width: 375px) {
-  .section-4__about-container img {
-    max-width: 100%;
-  }
-}
-
 hr {
   max-width: 1100px;
   border: 2px solid --clr-greyD;
@@ -421,36 +398,15 @@ hr {
   width: 100%;
 }
 
-@media (max-width: 375px) {
-  .section-5__container {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-}
-
 .section-5__container img {
   max-width: 50%;
   margin: 40px 0 0 0;
-}
-
-@media (max-width: 375px) {
-  .section-5__container img {
-    max-width: 100%;
-  }
 }
 
 .section-5__container ul {
   font-weight: bold;
   line-height: 2;
   font-size: 0.9rem;
-}
-
-@media (max-width: 375px) {
-  .section-5__container ul {
-    line-height: 1.5;
-    font-size: 0.8rem;
-  }
 }
 
 .section-5__container ul li svg {
@@ -503,8 +459,6 @@ hr {
 
 .section-6__container button {
   background-color: var(--clr-blueL);
-  -webkit-filter: drop-shadow(1px 10px 10px hsla(0, 0%, 0%, 0.5));
-  filter: drop-shadow(1px 10px 10px hsla(0, 0%, 0%, 0.5));
 }
 
 .section-6__container button:hover {
@@ -618,4 +572,58 @@ footer {
 .footer__container {
   max-width: 300px;
   text-align: center;
+}
+
+@media (max-width: 375px) {
+  header {
+    padding: 5px 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-3__stat-container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-4__about-container img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-5__container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-5__container img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-5__container ul {
+    line-height: 1.5;
+    font-size: 0.8rem;
+  }
 }
