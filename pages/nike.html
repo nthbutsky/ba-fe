@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/reset-styles.css" />
+    <link rel="stylesheet" href="../css/nike.css" />
+    <link rel="stylesheet" href="../font-awesome/css/all.css" />
+    <title>Nike</title>
+  </head>
+  <body>
+    <section class="bg">
+      <div></div>
+      <img src="../img/nike/Group 3 copy.png" alt="" />
+      <img src="../img/nike/Layer 6.png" alt="" />
+      <img src="../img/nike/Layer 5.png" alt="" />
+    </section>
+    <section class="product-card">
+      <img
+        class="product-card__logo"
+        src="../img/nike/logo.png"
+        alt="Nike Logo"
+      />
+      <img
+        class="product-card__item-image"
+        src="../img/nike/Nike-SB-Stefan-Janoski-Max.png"
+        alt="Nike Shoe"
+      />
+      <div class="product-card__description">
+        <h1>Nike SB Stefan Janoski Max</h1>
+        <p>Unisex Skateboarding Shoe</p>
+        <div class="product-card__rating">
+          <input type="radio" name="rating-1" id="rating-1" />
+          <label for="rating-1" class="fas fa-star"></label>
+          <input type="radio" name="rating-1" id="rating-2" />
+          <label for="rating-2" class="fas fa-star"></label>
+          <input type="radio" name="rating-1" id="rating-3" />
+          <label for="rating-3" class="fas fa-star"></label>
+          <input type="radio" name="rating-1" id="rating-4" />
+          <label for="rating-4" class="fas fa-star"></label>
+          <input type="radio" name="rating-1" id="rating-5" />
+          <label for="rating-5" class="fas fa-star"></label>
+        </div>
+        <select name="size" id="size">
+          <option value="">Size</option>
+          <option value="">S</option>
+          <option value="">M</option>
+          <option value="">L</option>
+        </select>
+        <select name="qty" id="qty">
+          <option value="">Qty</option>
+          <option value="">1</option>
+          <option value="">2</option>
+        </select>
+        <button>Add to cart</button>
+      </div>
+      <div class="product-card__item-color">
+        <input type="radio" name="color-1" id="color-1" />
+        <label for="color-1" class="fas fa-circle item-blue"></label>
+        <input type="radio" name="color-2" id="color-2" />
+        <label for="color-2" class="fas fa-circle item-white"></label>
+        <input type="radio" name="color-3" id="color-3" />
+        <label for="color-3" class="fas fa-circle item-red"></label>
+        <input type="radio" name="color-4" id="color-4" />
+        <label for="color-4" class="fas fa-circle item-green"></label>
+      </div>
+    </section>
+  </body>
+</html>
