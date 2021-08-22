@@ -78,13 +78,18 @@
         contact with me!
       </p>
       <div class="footer__form-contact-container">
-        <form class="footer__form form" action="POST">
+        <form
+          class="footer__form form"
+          action="mainto:nthbutsky@gmail.com"
+          method="POST"
+        >
           <input
             class="form__input-name"
             type="text"
             name="input-name"
             id="input-name"
             placeholder="Your name.."
+            required
           />
           <input
             class="form__input-email"
@@ -92,6 +97,7 @@
             name="input-email"
             id="input-email"
             placeholder="Your email.."
+            required
           />
           <input
             class="form__input-tel"
@@ -99,6 +105,7 @@
             name="input-tel"
             id="input-tel"
             placeholder="Your phone number.."
+            required
           />
           <input
             class="form__input-msg"
@@ -106,7 +113,16 @@
             name="msg"
             id="msg"
             placeholder="Your message.."
+            required
           />
+          <button
+            class="form__submit-btn"
+            type="submit"
+            name="submit"
+            value="send"
+          >
+            Send
+          </button>
         </form>
         <div class="footer__contact-container">
           <p>Adress</p>
