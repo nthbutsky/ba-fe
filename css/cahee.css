@@ -10,8 +10,7 @@ body::-webkit-scrollbar {
   scrollbar-width: none;
 }
 
-.header {
-}
+/* HEADER SECTION */
 
 .header__bg {
   position: relative;
@@ -20,7 +19,7 @@ body::-webkit-scrollbar {
 
 .header__logo {
   font-family: "Pacifico", cursive;
-  color: black;
+  color: hsl(0, 0%, 15%);
   font-size: 3rem;
   position: absolute;
   top: 50px;
@@ -112,6 +111,8 @@ body::-webkit-scrollbar {
   }
 }
 
+/* ABOUT SECTION */
+
 .about {
   background-color: hsl(180, 94%, 36%);
   width: 100%;
@@ -143,6 +144,107 @@ body::-webkit-scrollbar {
   color: white;
   margin: 10px 0 0 0;
 }
+
+/* FOOTER SECTION */
+
+.footer__bg {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.footer h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 15%);
+  text-align: center;
+  padding: 60px 0 20px 0;
+}
+
+.footer__text {
+  line-height: 1.5;
+  color: hsl(0, 0%, 15%);
+  margin: 0 auto 20px;
+  text-align: center;
+  max-width: 350px;
+}
+
+.footer__form-contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer__form {
+  max-width: 400px;
+}
+
+.form input::placeholder {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.form input:focus {
+  outline: none;
+  border-left: 4px solid hsl(210, 42%, 36%);
+  background-color: hsla(180, 100%, 38%);
+}
+
+.form input:hover {
+  border-left: 4px solid hsl(210, 42%, 36%);
+  background-color: hsla(180, 100%, 38%);
+}
+
+.form__input-name,
+.form__input-email,
+.form__input-tel,
+.form__input-msg {
+  width: 400px;
+  height: 40px;
+  margin: 5px 0;
+  background-color: hsla(180, 100%, 38%, 0.5);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 0 0 0 10px;
+  border-left: 4px solid transparent;
+}
+
+.form__input-msg {
+  height: 200px;
+}
+
+.footer__contact-container :nth-child(odd) {
+  font-weight: bold;
+}
+
+.footer__contact-container :nth-child(even) {
+  margin: 5px 0 15px 0;
+}
+
+.footer__copyright {
+  width: 100%;
+  height: 70px;
+  background-color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 100%);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__copyright :nth-child(2) {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+}
+
+.footer__copyright span {
+  color: hsl(347, 100%, 58%);
+  font-weight: bold;
+}
+
+/* MEDIA QUERIES */
 
 @media (max-width: 960px) {
   .header__bg {
