@@ -233,23 +233,34 @@
     <section class="section-7">
       <div class="section-7__wrapper">
         <div class="section-7__container">
-          <form action="POST">
+          <form action="mailto:nthbutsky@gmail.com" method="POST">
             <h3>Contact Us</h3>
             <label for="name">Full Name</label
-            ><input type="text" name="name" placeholder="John Smith" />
+            ><input
+              type="text"
+              name="name"
+              placeholder="John Smith"
+              minlength="2"
+              required
+            />
             <label for="email">Your Email Address</label
             ><input
               type="email"
               name="email"
               placeholder="hello@johnsmith.com"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
             />
             <label for="msg">Your Message</label
             ><input
               type="text"
               name="msg"
               placeholder="Type your message here..."
+              required
             />
-            <button class="btn" type="submit">Submit Your Message</button>
+            <button class="btn" type="submit" value="Submit">
+              Submit Your Message
+            </button>
           </form>
         </div>
       </div>
