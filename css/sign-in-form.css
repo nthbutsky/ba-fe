@@ -1,0 +1,153 @@
+body {
+  background-color: #e5eeee;
+  font-family: Quicksand, sans-serif;
+}
+
+.sign-in-form {
+  margin: 50px auto;
+  width: 500px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  padding: 70px 90px;
+  background: linear-gradient(
+    58deg,
+    hsla(246, 67%, 41%, 0.9),
+    hsla(292, 57%, 64%, 0.9)
+  );
+  box-shadow: 0 15px 50px black;
+}
+
+.sign-in-form__bg {
+  width: 200%;
+  position: absolute;
+  top: 0;
+  left: -70px;
+  z-index: -1;
+}
+
+.sign-in-form__btn-sign-in,
+.sign-in-form__btn-join-us {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  font-size: 1.5rem;
+  color: hsl(259, 16%, 76%);
+  font-weight: bold;
+  padding: 5px 0;
+  margin: 0 20px 0 0;
+}
+
+.sign-in-form__btn-sign-in:hover,
+.sign-in-form__btn-join-us:hover {
+  color: hsl(47, 74%, 94%);
+  cursor: pointer;
+  border-bottom: 3px solid hsl(3, 72%, 65%);
+}
+
+.sign-in-form__username-label,
+.sign-in-form__password-label,
+.sign-in-form__checkbox-label {
+  display: block;
+  font-size: 1.125rem;
+  color: hsl(47, 74%, 94%);
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 20px 0 0 0;
+}
+
+.sign-in-form input {
+  background-color: transparent;
+  border: 2px solid hsl(259, 16%, 76%);
+  width: 100%;
+  height: 45px;
+  margin: 0 auto;
+  color: hsl(47, 74%, 94%);
+  padding: 0 0 0 10px;
+  font-size: 1rem;
+}
+
+.sign-in-form input:hover {
+  border: 2px solid hsl(47, 74%, 94%);
+}
+
+.sign-in-form input:focus {
+  outline: none;
+}
+
+.sign-in-form input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.sign-in-form__checkbox-label {
+  margin: 20px 0 50px 30px;
+}
+
+.checkbox {
+  position: absolute;
+  top: 353px;
+  height: 21px;
+  width: 21px;
+  background-color: hsl(259, 16%, 76%);
+}
+
+.checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid hsl(47, 74%, 94%);
+  border-radius: 3px;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.sign-in-form input[type="checkbox"]:checked ~ .checkbox:after {
+  display: block;
+  transition: all 0.2s ease-in;
+}
+
+.sign-in-form input[type="checkbox"]:checked ~ .checkbox {
+  background-color: hsl(168, 67%, 41%);
+}
+
+.sign-in-form__btn-submit {
+  width: 100%;
+  height: 45px;
+  background-color: hsl(168, 67%, 41%);
+  border: none;
+  font-family: Quicksand, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: hsl(47, 74%, 94%);
+  margin: 0 0 40px 0;
+  cursor: pointer;
+}
+
+.sign-in-form__btn-forgot,
+.sign-in-form__btn-create {
+  background-color: transparent;
+  border: none;
+  color: hsl(259, 16%, 76%);
+  font-size: 1rem;
+  margin: 0 5px;
+  padding: 5px;
+  border-bottom: 1px dotted transparent;
+  font-family: Quicksand, sans-serif;
+}
+
+.sign-in-form__btn-forgot:hover,
+.sign-in-form__btn-create:hover {
+  color: hsl(47, 74%, 94%);
+  border-bottom: 1px dotted hsl(47, 74%, 94%);
+  cursor: pointer;
+}
