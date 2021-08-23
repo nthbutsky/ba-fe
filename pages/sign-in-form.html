@@ -9,25 +9,48 @@
     <title>Sign In Form</title>
   </head>
   <body>
-    <form class="sign-in-form" action="">
-      <img class="sign-in-form__bg" src="../img/sign-in-form/bg.png" alt="" />
-      <button class="sign-in-form__btn-sign-in">Sign in</button>
-      <button class="sign-in-form__btn-join-us">Join us</button>
-      <label class="sign-in-form__username-label" for="username"
-        >Username</label
-      >
-      <input type="text" name="username" id="username" />
-      <label class="sign-in-form__password-label" for="password"
-        >Password</label
-      >
-      <input type="text" name="password" id="password" />
-      <input type="checkbox" name="keep me signed in" id="keep me signed in" />
-      <label class="sign-in-form__checkbox-label" for="keep me signed in"
-        >Keep me signed in</label
-      ><span class="checkbox"></span>
-      <button class="sign-in-form__btn-submit" type="submit">Sign in</button>
-      <button class="sign-in-form__btn-forgot">Forgot password</button>
-      <button class="sign-in-form__btn-create">Create an account</button>
-    </form>
+    <div class="modal">
+      <button class="modal__btn-sign-in">Sign in</button>
+      <button class="modal__btn-join-us">Join us</button>
+      <form class="modal__sign-in-form sign-in-form" action="">
+        <img class="sign-in-form__bg" src="../img/sign-in-form/bg.png" alt="" />
+        <label class="sign-in-form__label-username" for="username"
+          >Username</label
+        >
+        <input type="text" name="username" id="username" required />
+        <label class="sign-in-form__label-password" for="password"
+          >Password</label
+        >
+        <input type="text" name="password" id="password" required />
+        <label class="sign-in-form__label-checkbox" for="keep me signed in"
+          >Keep me signed in</label
+        >
+        <input
+          type="checkbox"
+          name="keep me signed in"
+          id="keep me signed in"
+          checked
+        /><span class="sign-in-form__checkbox"></span>
+        <button class="sign-in-form__btn-submit" type="submit">Sign in</button>
+        <button class="sign-in-form__btn-forgot">Forgot password</button>
+        <button class="sign-in-form__btn-create">Create an account</button>
+      </form>
+      <form class="modal__join-us-form join-us-form" action="">
+        <img class="join-us-form__bg" src="../img/sign-in-form/bg.png" alt="" />
+        <label class="join-us-form__label-username" for="username"
+          >Username</label
+        >
+        <input type="text" name="username" id="username" required />
+        <label class="join-us-form__label-password" for="password"
+          >Password</label
+        >
+        <input type="text" name="password" id="password" required />
+        <label class="join-us-form__label-password-rep" for="password-rep"
+          >Repeat Password</label
+        >
+        <input type="text" name="password-rep" id="password-rep" required />
+        <button class="join-us-form__btn-submit" type="submit">Join in</button>
+      </form>
+    </div>
   </body>
 </html>
