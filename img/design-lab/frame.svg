@@ -1,0 +1,6 @@
+  <svg width="1000px" height="500px" >
+          <polyline
+            points="250 0, 0 0, 0 250, 750 250, 750 0, 500 0"
+            style="fill: transparent; stroke: #aaa; stroke-width: 2"
+          ></polyline>
+        </svg>
