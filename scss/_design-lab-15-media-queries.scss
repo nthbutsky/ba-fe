@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .about div {
+    padding: 30px;
+  }
+  .services div {
+    padding: 30px;
+  }
+  .what-we-do div {
+    padding: 30px;
+  }
+  .contact div {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about div {
+    border-image: linear-gradient(
+        90deg,
+        hsl(0, 0%, 0%) 15%,
+        hsla(0, 0%, 0%, 0) 15% 85%,
+        hsl(0, 0%, 0%) 85%
+      )
+      1;
+  }
+  .services div {
+    border-image: linear-gradient(
+        90deg,
+        hsl(0, 0%, 100%) 15%,
+        hsla(0, 0%, 0%, 0) 15% 85%,
+        hsl(0, 0%, 100%) 85%
+      )
+      1;
+  }
+  .what-we-do div {
+    border-image: linear-gradient(
+        90deg,
+        hsl(0, 0%, 0%) 15%,
+        hsla(0, 0%, 0%, 0) 15% 85%,
+        hsl(0, 0%, 0%) 85%
+      )
+      1;
+  }
+  .contact div {
+    border-image: linear-gradient(
+        90deg,
+        hsl(0, 0%, 0%) 15%,
+        hsla(0, 0%, 0%, 0) 15% 85%,
+        hsl(0, 0%, 0%) 85%
+      )
+      1;
+  }
+  .cards__row {
+    flex-wrap: wrap;
+  }
+  .cards__item_middle {
+    margin: 0;
+  }
+  .cards__row {
+    margin: 0;
+  }
+}
