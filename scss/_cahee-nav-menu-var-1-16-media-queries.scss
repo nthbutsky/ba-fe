@@ -33,10 +33,10 @@
       opacity: 0;
     }
     &.active .header__nav-menu-btn-bar:nth-child(1) {
-      transform: translateY(13px) rotate(45deg);
+      transform: translateY(14px) rotate(45deg);
     }
     &.active .header__nav-menu-btn-bar:nth-child(3) {
-      transform: translateY(-13px) rotate(-45deg);
+      transform: translateY(-14px) rotate(-45deg);
     }
   }
   .header__text-btn-container {

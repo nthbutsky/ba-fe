@@ -72,7 +72,7 @@ a {
   &__nav-menu-btn-bar {
     display: block;
     width: 40px;
-    height: 3px;
+    height: 4px;
     margin: 10px 0;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
@@ -205,7 +205,7 @@ a {
   &__icon {
     background-color: hsl(0, 0%, 100%);
     padding: 15px;
-    margin: -30px -4px;
+    margin: -28px -5px;
     height: 70px;
     width: 70px;
     border-left: 1px solid hsl(0, 0%, 75%);
@@ -229,7 +229,7 @@ a {
 
 .icon-third {
   position: absolute;
-  top: 30px;
+  top: 28px;
   left: 254px;
 }
 

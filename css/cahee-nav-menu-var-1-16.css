@@ -79,7 +79,7 @@ a {
 .header__nav-menu-btn-bar {
   display: block;
   width: 40px;
-  height: 3px;
+  height: 4px;
   margin: 10px 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -245,7 +245,7 @@ a {
 .services__icon {
   background-color: white;
   padding: 15px;
-  margin: -30px -4px;
+  margin: -28px -5px;
   height: 70px;
   width: 70px;
   border-left: 1px solid #bfbfbf;
@@ -268,7 +268,7 @@ a {
 
 .icon-third {
   position: absolute;
-  top: 30px;
+  top: 28px;
   left: 254px;
 }
 
@@ -774,12 +774,12 @@ a {
     opacity: 0;
   }
   .header__nav-menu-btn.active .header__nav-menu-btn-bar:nth-child(1) {
-    -webkit-transform: translateY(13px) rotate(45deg);
-            transform: translateY(13px) rotate(45deg);
+    -webkit-transform: translateY(14px) rotate(45deg);
+            transform: translateY(14px) rotate(45deg);
   }
   .header__nav-menu-btn.active .header__nav-menu-btn-bar:nth-child(3) {
-    -webkit-transform: translateY(-13px) rotate(-45deg);
-            transform: translateY(-13px) rotate(-45deg);
+    -webkit-transform: translateY(-14px) rotate(-45deg);
+            transform: translateY(-14px) rotate(-45deg);
   }
   .header__text-btn-container {
     max-width: 300px;
