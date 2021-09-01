@@ -87,6 +87,7 @@ video {
   vertical-align: baseline;
   box-sizing: border-box;
 }
+
 article,
 aside,
 details,
@@ -100,17 +101,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -118,9 +123,28 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 1.125em;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+b,
+strong {
+  font-weight: 700;
 }
 
 button {
