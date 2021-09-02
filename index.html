@@ -19,6 +19,12 @@
       width: 100%;
       margin: 0 auto;
       background-color: hsl(53, 25%, 79%);
+      -webkit-overflow-scrolling: none;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    body::-webkit-scrollbar {
+      display: none;
     }
     img {
       height: 100px;
@@ -28,6 +34,9 @@
     }
     h2 {
       margin-top: 0;
+    }
+    span {
+      font-weight: bold;
     }
     a {
       text-decoration: none;
@@ -67,52 +76,87 @@
       <h2>by Denis Butsky</h2>
     </header>
     <main>
-      <a href="./pages/cv.html">CV (lesson 1/2)</a>
-      <a href="./pages/shopping-list.html">Shopping List (lesson 3)</a>
-      <a href="./pages/table-of-contents.html">Anchors (lesson 3)</a>
-      <a href="./pages/css-simple.html">CSS Simple Task (lesson 4)</a>
-      <a href="./pages/css-hard.html">CSS Hard Task (lesson 4)</a>
-      <a href="./pages/photoshop.html">Photoshop Layout Markup (lesson 5)</a>
-      <a href="./pages/services.html">Services Icons Markup (lesson 6)</a>
-      <a href="./pages/css-shopping-list.html">CSS Shopping List (lesson 6)</a>
-      <a href="./pages/namaste-green.html">Namaste Icons Markup (lesson 7)</a>
-      <a href="./pages/weather-fc.html">Weather Forecast (lesson 7)</a>
-      <a href="./pages/fonts-task-one.html">Fonts Markup One (lesson 8)</a>
-      <a href="./pages/fonts-task-two.html">Fonts Markup Two (lesson 8)</a>
-      <a href="./pages/flex-task-one.html">Flex Markup One (lesson 9)</a>
-      <a href="./pages/flex-task-two.html">Flex Markup Two (lesson 9)</a>
+      <a href="./pages/cv.html"><span>Lesson 1/2</span> CV</a>
+      <a href="./pages/shopping-list.html"
+        ><span>Lesson 3 </span>Shopping List</a
+      >
+      <a href="./pages/table-of-contents.html"><span>Lesson 3 </span>Anchors</a>
+      <a href="./pages/css-simple.html"
+        ><span>Lesson 4 </span>CSS Simple Task</a
+      >
+      <a href="./pages/css-hard.html"><span>Lesson 4 </span>CSS Hard Task</a>
+      <a href="./pages/photoshop.html"
+        ><span>Lesson 5 </span>Photoshop Layout Markup</a
+      >
+      <a href="./pages/services.html"
+        ><span>Lesson 6 </span>Services Icons Markup</a
+      >
+      <a href="./pages/css-shopping-list.html"
+        ><span>Lesson 6 </span>CSS Shopping List</a
+      >
+      <a href="./pages/namaste-green.html"
+        ><span>Lesson 7 </span>Namaste Icons Markup</a
+      >
+      <a href="./pages/weather-fc.html"
+        ><span>Lesson 7 </span>Weather Forecast</a
+      >
+      <a href="./pages/fonts-task-one.html"
+        ><span>Lesson 8 </span>Fonts Markup One</a
+      >
+      <a href="./pages/fonts-task-two.html"
+        ><span>Lesson 8 </span>Fonts Markup Two</a
+      >
+      <a href="./pages/flex-task-one.html"
+        ><span>Lesson 9 </span>Flex Markup One</a
+      >
+      <a href="./pages/flex-task-two.html"
+        ><span>Lesson 9 </span>Flex Markup Two</a
+      >
       <a href="./pages/position-blog.html"
-        >Position & Transition Markup One (lesson 10)</a
+        ><span>Lesson 10 </span>Position & Transition Markup One</a
       >
       <a href="./pages/position-contact.html"
-        >Position & Transition Markup Two (lesson 10)</a
+        ><span>Lesson 10 </span>Position & Transition Markup Two</a
       >
       <a href="./pages/landing-page-fluffy-agency.html"
-        >Landing Page Fluffy Agency (lesson 10)</a
+        ><span>Lesson 10 </span>Landing Page Fluffy Agency</a
       >
-      <a href="./pages/cahee.html">Cahee Markup (lesson 11)</a>
-      <a href="./pages/nike.html">Nike Markup (lesson 11)</a>
-      <a href="./pages/productly.html">Landing Page Productly (lesson 11)</a>
-      <a href="./pages/cahee.html">Cahee Full Markup (lesson 12)</a>
-      <a href="./pages/sign-in-form.html">Sign In From (lesson 12)</a>
+      <a href="./pages/cahee.html"><span>Lesson 11 </span>Cahee Markup</a>
+      <a href="./pages/nike.html"><span>Lesson 11 </span>Nike Markup</a>
+      <a href="./pages/productly.html"
+        ><span>Lesson 11 </span>Landing Page Productly</a
+      >
+      <a href="./pages/cahee.html"><span>Lesson 12 </span>Cahee Full Markup</a>
+      <a href="./pages/sign-in-form.html"
+        ><span>Lesson 12 </span>Sign In Form</a
+      >
       <a href="./pages/landing-page-fluffy-agency.html"
-        >Full Landing Page Fluffy Agency (lesson 12)</a
+        ><span>Lesson 12 </span>Full Landing Page Fluffy Agency</a
       >
-      <a href="./pages/cahee-full.html">Cahee Markup SVG (lesson 13)</a>
-      <a href="./pages/design-lab.html">Design Lab Markup SVG (lesson 13)</a>
-      <a href="./pages/our-team.html">Our Team Markup (lesson 14)</a>
-      <a href="./pages/cahee-full-14.html">Cahee Complete Markup (lesson 14)</a>
+      <a href="./pages/cahee-full.html"
+        ><span>Lesson 13 </span>Cahee Markup SVG</a
+      >
+      <a href="./pages/design-lab.html"
+        ><span>Lesson 13 </span>Design Lab Markup SVG</a
+      >
+      <a href="./pages/our-team.html"><span>Lesson 14 </span>Our Team Markup</a>
+      <a href="./pages/cahee-full-14.html"
+        ><span>Lesson 14 </span>Cahee Complete Markup</a
+      >
       <a href="./pages/cahee-responsive-15.html"
-        >Cahee Complete Responsive (lesson 15)</a
+        ><span>Lesson 15 </span>Cahee Complete Responsive</a
       >
       <a href="./pages/design-lab-15.html"
-        >Design Lab Complete Responsive (lesson 15)</a
+        ><span>Lesson 15 </span>Design Lab Complete Responsive</a
       >
       <a href="./pages/cahee-nav-menu-var-1-16.html"
-        >Cahee Responsive Navigation Menu Variant 1 (lesson 16)</a
+        ><span>Lesson 16 </span>Cahee Responsive Navigation Menu Variant 1</a
       >
       <a href="./pages/cahee-nav-menu-var-2-16.html"
-        >Cahee Responsive Navigation Menu Variant 2 (lesson 16)</a
+        ><span>Lesson 16 </span>Cahee Responsive Navigation Menu Variant 2</a
+      >
+      <a href="./pages/dark-theme-resp-menu.html"
+        ><span>Lesson 16 </span>Dark Theme Responsive Menu</a
       >
       <footer>
         <a class="git-link" href="https://github.com/nthbutsky/ba-fe-course"
