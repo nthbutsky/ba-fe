@@ -12,6 +12,7 @@ body::-webkit-scrollbar {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 /* HEADER SECTION */
@@ -25,16 +26,17 @@ a {
 
 .header__logo {
   font-family: "Pacifico", cursive;
-  color: #262626;
   font-size: 3rem;
   display: inline-block;
 }
 
 .header__nav {
+  margin: 20px 0 0 0;
   float: right;
+  text-align: right;
 }
 
-.header__nav ul {
+.header__nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,24 +48,46 @@ a {
       flex-wrap: wrap;
 }
 
-.header__nav ul li {
+.header__nav-item {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0 20px;
   padding: 5px 0;
+}
+
+.header__nav-link {
   border-top: 3px solid transparent;
 }
 
-.header__nav ul li:hover {
+.header__nav-link:hover {
   border-top: 3px solid #ff5f33;
   cursor: pointer;
-  -webkit-transition: 0.3s linear;
-  transition: 0.3s linear;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
-.header__nav ul li:active {
-  color: #ff5f33;
+.header__nav-link:active {
+  color: #06b2b2;
   cursor: pointer;
+}
+
+.header__nav-menu-btn {
+  display: none;
+  float: right;
+  position: absolute;
+  z-index: 3;
+  top: 55px;
+  right: 10%;
+}
+
+.header__nav-menu-btn-bar {
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin: 10px 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
 }
 
 .header__text-btn-container {
@@ -96,8 +120,8 @@ a {
 .header__text-btn-container button:hover {
   background-color: #06b2b2;
   cursor: pointer;
-  -webkit-transition: 0.3s linear;
-  transition: 0.3s linear;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .header__text-btn-container button:active {
@@ -225,7 +249,7 @@ a {
 .services__icon {
   background-color: white;
   padding: 15px;
-  margin: -30px -4px;
+  margin: -28px -5px;
   height: 70px;
   width: 70px;
   border-left: 1px solid #bfbfbf;
@@ -248,7 +272,7 @@ a {
 
 .icon-third {
   position: absolute;
-  top: 30px;
+  top: 28px;
   left: 254px;
 }
 
@@ -324,6 +348,14 @@ a {
   margin: 20px auto 50px auto;
 }
 
+.gallery__btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 /* SUBSCRIBE SECTION */
 .subscribe {
   width: 100%;
@@ -365,6 +397,14 @@ a {
   background-color: #96ba2c;
   border: none;
   color: white;
+}
+
+.subscribe__container button:hover {
+  background-color: #5483a0;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .subscribe__bg {
@@ -702,20 +742,67 @@ a {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   .subscribe__bg {
     width: auto;
     height: 440px;
     float: right;
   }
-  .header__nav ul {
+  .header {
+    position: relative;
+  }
+  .header__nav {
+    margin: 10px 0 0 0;
+    float: none;
+    text-align: center;
+  }
+  .header__nav-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 100vh;
+    width: 100vw;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .header__nav-list_active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header__nav-item {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  .header__nav-menu-btn {
+    display: block;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .header__nav-menu-btn_active {
+    top: 35px;
+  }
+  .header__nav-menu-btn_active .header__nav-menu-btn-bar:nth-child(2) {
+    opacity: 0;
+  }
+  .header__nav-menu-btn_active .header__nav-menu-btn-bar:nth-child(1) {
+    -webkit-transform: translateY(14px) rotate(45deg);
+            transform: translateY(14px) rotate(45deg);
+  }
+  .header__nav-menu-btn_active .header__nav-menu-btn-bar:nth-child(3) {
+    -webkit-transform: translateY(-14px) rotate(-45deg);
+            transform: translateY(-14px) rotate(-45deg);
   }
   .header__text-btn-container {
     max-width: 300px;
