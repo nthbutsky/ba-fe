@@ -12,6 +12,7 @@ body {
 
 a {
   text-decoration: none;
+  color: hsl(0, 0%, 0%);
 }
 
 /* HEADER SECTION */
@@ -25,37 +26,60 @@ a {
 
   &__logo {
     font-family: "Pacifico", cursive;
-    color: hsl(0, 0%, 15%);
     font-size: 3rem;
     display: inline-block;
   }
 
   &__nav {
+    margin: 20px 0 0 0;
     float: right;
+    text-align: right;
+  }
 
-    & ul {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+  &__nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-      & li {
-        font-weight: bold;
-        text-transform: uppercase;
-        margin: 0 20px;
-        padding: 5px 0;
-        border-top: 3px solid transparent;
+  &__nav-item {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 20px;
+    padding: 5px 0;
+  }
 
-        &:hover {
-          border-top: 3px solid hsl(13, 100%, 60%);
-          cursor: pointer;
-          transition: 0.3s linear;
-        }
-        &:active {
-          color: hsl(13, 100%, 60%);
-          cursor: pointer;
-        }
-      }
+  &__nav-link {
+    border-top: 3px solid transparent;
+
+    &:hover {
+      border-top: 3px solid hsl(13, 100%, 60%);
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
     }
+
+    &:active {
+      color: hsl(180, 94%, 36%);
+      cursor: pointer;
+    }
+  }
+
+  &__nav-menu-btn {
+    display: none;
+    float: right;
+    position: absolute;
+    z-index: 3;
+    top: 55px;
+    right: 10%;
+  }
+
+  &__nav-menu-btn-bar {
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin: 10px 0;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
   }
 
   &__text-btn-container {
@@ -85,7 +109,7 @@ a {
       &:hover {
         background-color: hsl(180, 94%, 36%);
         cursor: pointer;
-        transition: 0.3s linear;
+        transition: 0.2s ease-in-out;
       }
 
       &:active {
@@ -185,7 +209,7 @@ a {
   &__icon {
     background-color: hsl(0, 0%, 100%);
     padding: 15px;
-    margin: -30px -4px;
+    margin: -28px -5px;
     height: 70px;
     width: 70px;
     border-left: 1px solid hsl(0, 0%, 75%);
@@ -209,7 +233,7 @@ a {
 
 .icon-third {
   position: absolute;
-  top: 30px;
+  top: 28px;
   left: 254px;
 }
 
@@ -269,6 +293,13 @@ a {
     border: none;
     color: hsl(0, 0%, 100%);
     margin: 20px auto 50px auto;
+
+    &:hover {
+      background-color: white;
+      color: hsl(0, 0%, 0%);
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+    }
   }
 }
 
@@ -312,6 +343,13 @@ a {
       background-color: hsl(75, 62%, 45%);
       border: none;
       color: hsl(0, 0%, 100%);
+
+      &:hover {
+        background-color: hsl(203, 31%, 48%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+      }
     }
   }
 
@@ -593,4 +631,4 @@ a {
 
 /* MEDIA QUERIES */
 
-@import "_cahee-responsive-15-media-queries.scss";
+@import "_cahee-nav-menu-var-2-16-media-queries.scss";
