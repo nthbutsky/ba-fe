@@ -143,6 +143,7 @@ a {
   }
 
   &__text {
+    max-width: 310px;
     margin: 0 5px;
     cursor: default;
     transition: all 0.7s ease-in-out;

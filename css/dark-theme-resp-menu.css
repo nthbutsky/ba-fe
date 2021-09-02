@@ -164,6 +164,7 @@ a {
 }
 
 .header-section__text {
+  max-width: 310px;
   margin: 0 5px;
   cursor: default;
   -webkit-transition: all 0.7s ease-in-out;
