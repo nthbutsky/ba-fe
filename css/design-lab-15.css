@@ -52,6 +52,7 @@ body::-webkit-scrollbar {
   left: 50%;
   z-index: 1;
   -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
           transform: translate(-50%);
   -webkit-animation: fade 1.5s linear alternate infinite;
           animation: fade 1.5s linear alternate infinite;
@@ -87,6 +88,7 @@ body::-webkit-scrollbar {
   left: 50%;
   top: -15px;
   -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
           transform: translate(-50%);
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -99,9 +101,11 @@ body::-webkit-scrollbar {
   padding: 50px 100px;
   max-width: 800px;
   border: 2px solid black;
-  -o-border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
-     border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
-     border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+  -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
+  -webkit-border-image: -webkit-linear-gradient(left, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+       -o-border-image: -o-linear-gradient(left, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+          border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
+          border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
   margin: 0 auto;
   position: relative;
 }
@@ -126,6 +130,7 @@ body::-webkit-scrollbar {
   left: 50%;
   top: -25px;
   -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
           transform: translate(-50%);
   background-color: transparent;
   padding: 10px 70px;
@@ -141,9 +146,11 @@ body::-webkit-scrollbar {
   padding: 50px 100px;
   max-width: 800px;
   border: 2px solid white;
-  -o-border-image: linear-gradient(90deg, white 30%, rgba(0, 0, 0, 0) 30% 70%, white 70%) 1;
-     border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, white), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, white)) 1;
-     border-image: linear-gradient(90deg, white 30%, rgba(0, 0, 0, 0) 30% 70%, white 70%) 1;
+  -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, white), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, white)) 1;
+  -webkit-border-image: -webkit-linear-gradient(left, white 30%, rgba(0, 0, 0, 0) 30% 70%, white 70%) 1;
+       -o-border-image: -o-linear-gradient(left, white 30%, rgba(0, 0, 0, 0) 30% 70%, white 70%) 1;
+          border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, white), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, white)) 1;
+          border-image: linear-gradient(90deg, white 30%, rgba(0, 0, 0, 0) 30% 70%, white 70%) 1;
   margin: 0 auto;
   position: relative;
 }
@@ -165,6 +172,7 @@ body::-webkit-scrollbar {
   left: 50%;
   top: -15px;
   -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
           transform: translate(-50%);
   background-color: transparent;
   font-size: 1.5rem;
@@ -179,9 +187,11 @@ body::-webkit-scrollbar {
   padding: 50px 100px;
   max-width: 800px;
   border: 2px solid black;
-  -o-border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
-     border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
-     border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+  -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
+  -webkit-border-image: -webkit-linear-gradient(left, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+       -o-border-image: -o-linear-gradient(left, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+          border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
+          border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
   margin: 0 auto;
   position: relative;
 }
@@ -250,6 +260,7 @@ body::-webkit-scrollbar {
   left: 50%;
   top: -15px;
   -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
           transform: translate(-50%);
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -262,9 +273,11 @@ body::-webkit-scrollbar {
   padding: 50px 100px;
   max-width: 800px;
   border: 2px solid black;
-  -o-border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
-     border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
-     border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+  -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
+  -webkit-border-image: -webkit-linear-gradient(left, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+       -o-border-image: -o-linear-gradient(left, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
+          border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(70%, black)) 1;
+          border-image: linear-gradient(90deg, black 30%, rgba(0, 0, 0, 0) 30% 70%, black 70%) 1;
   margin: 0 auto;
   position: relative;
 }
@@ -333,24 +346,32 @@ body::-webkit-scrollbar {
 
 @media (max-width: 576px) {
   .about div {
-    -o-border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
-       border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
-       border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
+    -webkit-border-image: -webkit-linear-gradient(left, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+         -o-border-image: -o-linear-gradient(left, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+            border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
+            border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
   }
   .services div {
-    -o-border-image: linear-gradient(90deg, white 15%, rgba(0, 0, 0, 0) 15% 85%, white 85%) 1;
-       border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, white), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, white)) 1;
-       border-image: linear-gradient(90deg, white 15%, rgba(0, 0, 0, 0) 15% 85%, white 85%) 1;
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, white), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, white)) 1;
+    -webkit-border-image: -webkit-linear-gradient(left, white 15%, rgba(0, 0, 0, 0) 15% 85%, white 85%) 1;
+         -o-border-image: -o-linear-gradient(left, white 15%, rgba(0, 0, 0, 0) 15% 85%, white 85%) 1;
+            border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, white), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, white)) 1;
+            border-image: linear-gradient(90deg, white 15%, rgba(0, 0, 0, 0) 15% 85%, white 85%) 1;
   }
   .what-we-do div {
-    -o-border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
-       border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
-       border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
+    -webkit-border-image: -webkit-linear-gradient(left, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+         -o-border-image: -o-linear-gradient(left, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+            border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
+            border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
   }
   .contact div {
-    -o-border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
-       border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
-       border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
+    -webkit-border-image: -webkit-linear-gradient(left, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+         -o-border-image: -o-linear-gradient(left, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
+            border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(85%, black)) 1;
+            border-image: linear-gradient(90deg, black 15%, rgba(0, 0, 0, 0) 15% 85%, black 85%) 1;
   }
   .cards__row {
     -ms-flex-wrap: wrap;

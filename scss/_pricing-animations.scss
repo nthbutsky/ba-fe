@@ -1,0 +1,35 @@
+@keyframes card-icon-text-bg-slide {
+  0% {
+    transform: translateY(320px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes card-icon-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes card-p-flag-show {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes card-p-icon-glow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

@@ -33,11 +33,13 @@ a {
   cursor: pointer;
   margin: 0 0 5px 10px;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .header-section__nav-menu-btn:hover {
   -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
           transform: scale(1.2);
 }
 
@@ -53,6 +55,7 @@ a {
   display: inline-block;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #e6e6e6;
 }
@@ -62,11 +65,13 @@ a {
   float: right;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .header-section__nav-menu-btn-x:hover {
   -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
           transform: scale(0.8);
 }
 
@@ -80,17 +85,20 @@ a {
   margin: 5px 0 5px 10px;
   display: block;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #e6e6e6;
 }
 
 .header-section__nav-menu-btn-x-bar:nth-child(1) {
   -webkit-transform: translateY(5px) rotate(45deg);
+      -ms-transform: translateY(5px) rotate(45deg);
           transform: translateY(5px) rotate(45deg);
 }
 
 .header-section__nav-menu-btn-x-bar:nth-child(2) {
   -webkit-transform: translateY(-5px) rotate(-45deg);
+      -ms-transform: translateY(-5px) rotate(-45deg);
           transform: translateY(-5px) rotate(-45deg);
 }
 
@@ -106,6 +114,7 @@ a {
       flex-wrap: nowrap;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -116,24 +125,28 @@ a {
 
 .header-section__nav-item a {
   -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   color: #e6e6e6;
 }
 
 .header-section__nav-item:nth-child(1) :hover {
   -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   color: #f38181;
 }
 
 .header-section__nav-item:nth-child(2) :hover {
   -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   color: #fce388;
 }
 
 .header-section__nav-item:nth-child(3) :hover {
   -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   color: #94e1d3;
 }
@@ -153,12 +166,14 @@ a {
 
 .header-section__title span {
   -webkit-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
   color: #e6e6e6;
 }
 
 .header-section__title span:hover {
   -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   color: #393e46;
 }
@@ -168,6 +183,7 @@ a {
   margin: 0 5px;
   cursor: default;
   -webkit-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
   color: #e6e6e6;
 }
@@ -175,6 +191,7 @@ a {
 .header-section__text:hover {
   font-size: 1.7rem;
   -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   color: #eaffd1;
 }
