@@ -85,7 +85,8 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 article,
@@ -130,24 +131,6 @@ table {
 }
 
 body {
-  box-sizing: border-box;
-}
-
-:root {
-  font-size: 1.125em;
-}
-
-img,
-svg {
-  max-width: 100%;
-}
-
-b,
-strong {
-  font-weight: 700;
-}
-
-button {
-  background: transparent;
-  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }

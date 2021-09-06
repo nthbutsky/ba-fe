@@ -40,6 +40,7 @@ body {
   top: 500px;
   left: 150px;
   -webkit-transform: rotate(-135deg);
+      -ms-transform: rotate(-135deg);
           transform: rotate(-135deg);
 }
 
@@ -54,6 +55,7 @@ body {
   top: 500px;
   left: 1275px;
   -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
@@ -161,6 +163,7 @@ body {
   background-color: #ffcc00;
   color: white;
   -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
   transition: 0.2s linear;
 }
 
@@ -189,6 +192,8 @@ body {
   width: 50px;
   border: none;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #ffcc00), color-stop(20%, rgba(255, 255, 255, 0)), color-stop(30%, #ffcc00), color-stop(70%, rgba(255, 255, 255, 0)), color-stop(80%, #ffcc00));
+  background-image: -webkit-linear-gradient(left, #ffcc00 20%, rgba(255, 255, 255, 0) 20% 30%, #ffcc00 30% 70%, rgba(255, 255, 255, 0) 70% 80%, #ffcc00 80%);
+  background-image: -o-linear-gradient(left, #ffcc00 20%, rgba(255, 255, 255, 0) 20% 30%, #ffcc00 30% 70%, rgba(255, 255, 255, 0) 70% 80%, #ffcc00 80%);
   background-image: linear-gradient(90deg, #ffcc00 20%, rgba(255, 255, 255, 0) 20% 30%, #ffcc00 30% 70%, rgba(255, 255, 255, 0) 70% 80%, #ffcc00 80%);
 }
 
