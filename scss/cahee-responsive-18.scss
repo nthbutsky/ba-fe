@@ -215,15 +215,24 @@ a {
     border-left: 1px solid hsl(0, 0%, 75%);
   }
 
-  &__img {
-    max-width: 100%;
+  &__right-container {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px 0;
+
+    & h2 {
+      font-size: 4rem;
+      font-weight: bold;
+      color: hsl(0, 0%, 100%);
+      position: absolute;
+    }
   }
 
-  & h2 {
-    font-size: 4rem;
-    font-weight: bold;
-    color: hsl(0, 0%, 100%);
-    position: absolute;
+  &__img {
+    max-width: 100%;
   }
 }
 
@@ -235,15 +244,6 @@ a {
   position: absolute;
   top: 28px;
   left: 254px;
-}
-
-.right-container {
-  max-width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 20px 0;
 }
 
 /* GALLERY SECTION */
