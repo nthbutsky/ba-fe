@@ -10,8 +10,12 @@
       justify-content: flex-end;
     }
 
-    &__text-container {
-      text-align: center;
+    &__title {
+      margin: 30% auto 30px auto;
+    }
+
+    &__text {
+      margin: 0 auto;
     }
   }
 }
@@ -44,7 +48,11 @@
     }
 
     &__title {
-      margin: 30% 5px 30px 5px;
+      margin: 30% auto 30px auto;
+    }
+
+    &__text {
+      margin: 0 auto;
     }
   }
 }

@@ -152,14 +152,15 @@ a {
 }
 
 .header-section__text-container {
-  position: relative;
   color: #e6e6e6;
+  width: 100%;
 }
 
 .header-section__title {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 4rem;
+  max-width: 275px;
   margin: 20% 5px 30px 5px;
   cursor: default;
 }
@@ -179,7 +180,7 @@ a {
 }
 
 .header-section__text {
-  max-width: 310px;
+  max-width: 275px;
   margin: 0 5px;
   cursor: default;
   -webkit-transition: all 0.7s ease-in-out;
@@ -209,8 +210,11 @@ a {
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .header-section__text-container {
-    text-align: center;
+  .header-section__title {
+    margin: 30% auto 30px auto;
+  }
+  .header-section__text {
+    margin: 0 auto;
   }
 }
 
@@ -238,6 +242,9 @@ a {
     opacity: 1;
   }
   .header-section__title {
-    margin: 30% 5px 30px 5px;
+    margin: 30% auto 30px auto;
+  }
+  .header-section__text {
+    margin: 0 auto;
   }
 }
