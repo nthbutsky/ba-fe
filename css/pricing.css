@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url("../font/bebas_neue/BebasNeue-Regular.otf") format("opentype"),
-    url("../font/bebas_neue/BebasNeue-Thin.otf") format("opentype"),
-    url("../font/bebas_neue/BebasNeue-Bold.otf") format("opentype");
+  src: url("../font/bebas_neue/BebasNeueRegular.ttf") format("truetype"),
+    url("../font/bebas_neue/BebasNeue-Thin.ttf") format("truetype"),
+    url("../font/bebas_neue/BebasNeueBold.ttf") format("truetype");
 }
 
 @font-face {
