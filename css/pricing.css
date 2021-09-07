@@ -31,7 +31,6 @@ body {
 }
 
 .pricing-section {
-  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -488,12 +487,12 @@ body {
     height: 550px;
   }
   .pricing-section__card-price_middle::before {
-    top: 25px;
-    left: 114px;
+    top: 34px;
+    left: 124px;
   }
   .pricing-section__card-price_middle::after {
-    top: 48px;
-    left: 165px;
+    top: 58px;
+    left: 175px;
   }
   .pricing-section__card-icon-text-container_middle {
     width: 65%;
