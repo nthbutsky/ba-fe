@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url("../font/bebas_neue/BebasNeue\ Regular.otf"),
-    url("../font/bebas_neue/BebasNeue\ Thin.otf"),
-    url("../font/bebas_neue/BebasNeue\ Bold.otf.otf");
+  src: url("../font/bebas_neue/BebasNeue-Regular.otf") format("otf"),
+    url("../font/bebas_neue/BebasNeue-Thin.otf") format("otf"),
+    url("../font/bebas_neue/BebasNeue-Bold.otf") format("otf");
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Light.ttf");
+  src: url("../font/roboto/Roboto-Light.ttf") format("truetype");
 }
 
 @import "_pricing-animations.scss";
@@ -25,8 +25,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: hsl(248, 90%, 76%);
 
   &__card-container {
@@ -264,7 +264,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 1px;
-    color: white;
+    color: hsl(0, 0%, 100%);
 
     &::before {
       content: "";

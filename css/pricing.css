@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url("../font/bebas_neue/BebasNeue Regular.otf"), url("../font/bebas_neue/BebasNeue Thin.otf"), url("../font/bebas_neue/BebasNeue Bold.otf.otf");
+  src: url("../font/bebas_neue/BebasNeue-Regular.otf") format("otf"), url("../font/bebas_neue/BebasNeue-Thin.otf") format("otf"), url("../font/bebas_neue/BebasNeue-Bold.otf") format("otf");
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Light.ttf");
+  src: url("../font/roboto/Roboto-Light.ttf") format("truetype");
 }
 
 @-webkit-keyframes card-icon-text-bg-slide {
@@ -122,8 +122,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: #998bf9;
 }
 

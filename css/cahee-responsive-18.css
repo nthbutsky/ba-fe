@@ -89,7 +89,7 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: #0f0f0f;
 }
 
 .header__text-btn-container {
