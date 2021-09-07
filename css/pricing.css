@@ -1,8 +1,15 @@
 @font-face {
   font-family: "Bebas Neue";
   src: url("../font/bebas_neue/BebasNeue-Regular.otf") format("otf"), url("../font/bebas_neue/BebasNeue-Thin.otf") format("otf"), url("../font/bebas_neue/BebasNeue-Bold.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Roboto";
   src: url("../font/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @-webkit-keyframes card-icon-text-bg-slide {
