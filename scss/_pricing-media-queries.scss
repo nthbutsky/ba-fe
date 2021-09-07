@@ -123,5 +123,16 @@ $xxl: 1400px;
     &__card-bottom-bg {
       width: 310px;
     }
+
+    &__card-p-flag {
+      top: -10px;
+      right: 65px;
+
+      &::before {
+        top: 16px;
+        left: 80px;
+        transform: rotate(180deg);
+      }
+    }
   }
 }
