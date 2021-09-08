@@ -4,6 +4,7 @@ body {
   -webkit-overflow-scrolling: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
+    cursor: default;
 
   &::-webkit-scrollbar {
     display: none;

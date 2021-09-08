@@ -4,6 +4,7 @@ body {
   -webkit-overflow-scrolling: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  cursor: default;
 
   &::-webkit-scrollbar {
     display: none;
@@ -14,6 +15,7 @@ body {
 
 .header {
   width: 100%;
+  height: 100vh;
   background-image: url(../img/design-lab/header-bg.png);
   background-position: top right;
   background-size: cover;
