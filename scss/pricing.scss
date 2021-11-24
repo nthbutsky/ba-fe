@@ -21,6 +21,11 @@
 
 html,
 body {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   width: 100vw;
   cursor: default;
   background-color: hsl(248, 90%, 76%);
